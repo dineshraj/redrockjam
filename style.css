@@ -1,0 +1,89 @@
+body {
+  background-color: black;
+  font-family: 'Francois One', helvetica neue, helvetica, arial, sans-serif;
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: black;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #c92f0d;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #97250c;
+}
+
+.hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+.redrockjam {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.redrockjam__logo {
+  max-width: 900px;
+  height: inherit;
+  width: 100%;
+}
+
+.redrockjam__info {
+  padding: 0 20px 20px;
+  max-width: 700px;
+  margin: 20px auto 0;
+}
+
+.redrockjam__place {
+  text-transform: uppercase;
+}
+
+.redrockjam__time {
+  margin-top: 30px;
+  font-size: 45px;
+  color: #c92f0d;
+  text-transform: uppercase;
+}
+
+.redrockjam__social {
+  list-style: none;
+}
+
+.redrockjam__social li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.redrockjam__social li a {
+  padding: 10px;
+}
+
+.redrockjam__social svg {
+  fill: white;
+  height: 48px;
+  width: 48px;
+}
+
+.redrockjam__social li a:hover svg,
+.redrockjam__social li a:active svg,
+.redrockjam__social li a:focus svg {
+  fill: #c92f0d;
+}
+
